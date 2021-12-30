@@ -1,0 +1,31 @@
+<ruleset name="Custom Rules" xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+<description>
+Ensemble des règles considérées en Production d'applications, projet de modélisation
+</description>
+<rule ref="category/java/bestpractices.xml/AvoidReassigningLoopVariables">
+<properties>
+<property name="foreachReassign" value="deny"/>
+<property name="forReassign" value="deny"/>
+</properties>
+</rule>
+<rule ref="category/java/design.xml/UseUtilityClass" />
+<rule ref="category/java/design.xml/TooManyFields" />
+<rule ref="category/java/codestyle.xml/ShortVariable" />
+<rule ref="category/java/design.xml/ImmutableField" />
+<rule ref="category/java/design.xml/LawOfDemeter" />
+<rule ref="category/java/errorprone.xml/AvoidFieldNameMatchingTypeName" />
+<rule ref="category/java/performance.xml/AvoidArrayLoops" />
+<rule ref="category/java/codestyle.xml/OnlyOneReturn" />
+<rule ref="category/java/design.xml/ExcessivePublicCount" />
+<rule ref="category/java/design.xml/TooManyMethods" />
+<rule ref="category/java/bestpractices.xml/UnusedLocalVariable" />
+<rule ref="category/java/codestyle.xml/UnnecessaryLocalBeforeReturn" />
+<rule ref="category/java/performance.xml/AvoidInstantiatingObjectsInLoops" />
+<rule ref="category/java/design.xml/UselessOverridingMethod" />
+<rule ref="category/java/codestyle.xml/FieldNamingConventions" />
+<rule ref="category/java/bestpractices.xml/UnusedImports" />
+<rule ref="category/java/design.xml/SingularField" />
+<rule ref="category/java/bestpractices.xml/SwitchStmtsShouldHaveDefault" />
+<rule ref="category/java/design.xml/ExcessiveClassLength" />
+<rule ref="category/java/errorprone.xml/AvoidDuplicateLiterals" />
+</ruleset>

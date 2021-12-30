@@ -1,0 +1,16 @@
+5 règles pmd les plus importantes : 
+
+    - ShortVariable -> Me semble important pour la compréhension du code
+    - TooManyMethods -> Me semble important car cette classe peut-être soumise à un refactoring pour optimiser la taille de la classe 
+    - FieldNamingConventions -> Me semble important car notre code doit être lu par tout le monde
+    - UnusedImports -> Me semble important car on pourrait croire qu'il y a des erreurs alors que ce  n'ait pas le cas 
+    - SwitchStmtsShouldHaveDefault -> Me semble important car un switch doit toujours avoir un cas par défaut
+
+5 règles qui posent problèmes :
+
+    - CommentRequired -> Me pose problème car tous les commentaires n'ont pas étaient fait de ce fait une personne externe au projet pourraît avoir du mal à comprendre notre code 
+    - OnlyOneReturn -> Me pose problème car à certains moment on n'a pas le choix de metre plusieurs return ou bien on ne sait pas comment faire sans mettre plusieur retrun
+    - LawOfDemeter -> Me pose problème car elle pourraît être difficile à résoudre selon la taille de l'instruction, donc difficle à résoudre car on devra modifier tout le programme par exemple
+    - TooManyMethods -> Me pose problème car il faut réduire le nombre de méthode par classe pour une question de lisibilité
+    -  UnusedLocalVariable -> Me pose problème car il pourrait y avoir un problème de lisibilité dans le code et enfin car cette variable n'est pas utilisé  
+

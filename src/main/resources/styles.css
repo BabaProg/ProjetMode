@@ -1,0 +1,33 @@
+.buttonSelected {
+    -fx-background-color: lightblue;
+}
+
+.clickButton {
+    -fx-background-color: none;
+}
+
+.clickButton:hover {
+    -fx-background-color: lightblue;
+}
+
+.clickButton:pressed {
+    -fx-background-color: skyblue;
+}
+
+.textButton {
+    -fx-background-color: none;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.textButton:hover {
+    -fx-background-color: lightblue;
+}
+
+.textButton:pressed {
+    -fx-background-color: skyblue;
+}
+
+TextField {
+    -fx-background-color: white;
+}
